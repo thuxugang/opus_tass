@@ -1,2 +1,9 @@
-# opus_tass
-OPUS-TASS: A Protein Backbone Torsion Angles and Secondary Structure Predictor Based on Multi-Task Learning and Ensemble Neural Networks
+# OPUS-TASS
+
+Motivation: Predictions of protein backbone torsion angles (ϕ and ψ) and secondary structure from sequence are crucial subproblems in protein structure prediction. With the development of deep learning approaches, their accuracies have been significantly improved. To capture the long-range interactions, most of studies integrate bidirectional recurrent neural networks into their models. In this study, we introduce and modify a recently proposed architecture named Transformer to capture the interactions between the two residues theoretically with arbitrary distance. Moreover, we also take advantage of multi-task learning to improve the generalization of neural network by introducing related tasks into the training process. Similar to many previous studies, OPUS-TASS uses an ensemble of models and achieves better results.
+
+Results: OPUS-TASS uses the same training and validation sets as SPOT-1D. We test the performance of OPUS-TASS and SPOT-1D on TEST2016 (1213 proteins) and TEST2018 (250 proteins) proposed in SPOT-1D paper, and a recently released PDB structures collected from CAMEO (93 proteins) named as CAMEO93. On these three test sets, OPUS-TASS achieves consistent improvements in both backbone torsion angles prediction and secondary structure prediction. On CAMEO93, for SPOT-1D, the mean absolute errors for ϕ and ψ predictions are 17.03 and 22.59, respectively, and the accuracies for 3 and 8-state secondary structure predictions are 88.01% and 77.97%, respectively. In comparison, OPUS-TASS achieves 16.81 and 22.36 for ϕ and ψ predictions, and 89.03% and 79.2% for 3 and 8-state secondary structure predictions, respectively. In particular, after using our torsion angles refinement method OPUS-Refine as the post-processing procedure for OPUS-TASS, the mean absolute errors for final ϕ and ψ predictions are further decreased to 16.57 and 21.84. 
+
+Availability: The training and the inference codes of OPUS-TASS and its data will be released in the repo after the acceptance.
+
+
