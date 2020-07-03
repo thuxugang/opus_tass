@@ -13,7 +13,7 @@ Python 3.7
 TensorFlow v2.0
 ```
 
-The standalone version of OPUS-TASS (including training & inference codes) is hosted on [Baidu Drive](xxx) with password `xxx` (Coming soon). Also, they can be downloaded directly from [Here](xxx) (Coming soon).
+The standalone version of OPUS-TASS (including training & inference codes) is hosted on [Baidu Drive](https://pan.baidu.com/s/1Gx4iewX8_Khp4J87N_Fw5w) with password `ia8c`. Also, it can be downloaded directly from [Here](xxx) (Coming soon).
 
 ## Datasets
 
@@ -145,6 +145,14 @@ In OPUS-TASS, we train 6 different types of model with the same neural network a
 
 
 ## Reference 
-
+```bibtex
+@article{xu2020opus3,
+  title={OPUS-TASS: A Protein Backbone Torsion Angles and Secondary Structure Predictor Based on Ensemble Neural Networks},
+  author={Xu, Gang and Wang, Qinghua and Ma, Jianpeng},
+  journal={Bioinformatics},
+  year={2020},
+  publisher={Oxford University Press}
+}
+```
 
 
