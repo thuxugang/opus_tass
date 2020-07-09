@@ -13,11 +13,11 @@ Python 3.7
 TensorFlow v2.0
 ```
 
-The standalone version of OPUS-TASS (including training & inference codes) is hosted on [Baidu Drive](https://pan.baidu.com/s/1Gx4iewX8_Khp4J87N_Fw5w) with password `ia8c`. Also, it can be downloaded directly from [Here](xxx) (Coming soon).
+The standalone version of OPUS-TASS (including training & inference codes) is hosted on [Baidu Drive](https://pan.baidu.com/s/1Gx4iewX8_Khp4J87N_Fw5w) with password `ia8c`. Also, it can be downloaded directly from [Here](http://ma-lab.rice.edu/MaLab/dist/opus_tass.tar).
 
 ## Datasets
 
-All the datasets we used as well as their corresponding OPUS-TASS prediction results are hosted on [Baidu Drive](https://pan.baidu.com/s/1L6w_qBIKvleO2uFr1Ekevw) with password `zmc1`. Also, they can be downloaded directly from [Here](xxx) (Coming soon).
+All the datasets we used as well as their corresponding OPUS-TASS prediction results are hosted on [Baidu Drive](https://pan.baidu.com/s/1L6w_qBIKvleO2uFr1Ekevw) with password `zmc1`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/MaLab/dist/opus_tass_datasets.zip).
 
 Train & Val:
 1. .angles (seq_id phi psi x1 x2 x3 x4): 181: Missing atoms for calculation 182: X doesn't exist
